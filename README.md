@@ -6,7 +6,7 @@ This script uses your eBird API key and the location code for a specific hotspot
 
 The output is nicely formatted to include total species count, total count for today, total count prior to today, and checklist timestamps.
 
-In order to make the app work for your hotspot of choice, you'll need to edit the constants `EBIRD_LOCATION` and `EBIRD_LOCATION_NAME` in the file `main.py`. See comments in that file for help finding the location code for your favorite hotspot.
+To make the app work for your hotspot of choice, you'll need to edit the constants `EBIRD_LOCATION` and `EBIRD_LOCATION_NAME` in the file `main.py`. See comments in that file for help finding the location code for your favorite hotspot.
 
 ### macOS menu bar
 
