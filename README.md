@@ -12,4 +12,4 @@ This script's output can easily be linked to a macOS menu bar icon using [Platyp
 
 I'm planning to post detailed instructions for creating the menu bar item. Feel free to reach out if you need help creating it.
 
-![image](https://github.com/user-attachments/assets/72586b08-b0a4-4414-ae3e-de1901348b98)
+<img width="1000" alt="desktop-screenshot-smaller" src="https://github.com/user-attachments/assets/bc7223ab-afce-403a-99ed-0b6955a484b0" />
