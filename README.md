@@ -54,6 +54,7 @@ pip list
 16. Select the file "feather.svg" in the repo folder
 17. Click `Apply`
 18. Click `Create App`
+19. Enter a name for your App and select `Create` to save it.
 
 Below is just an example of what the relevant information looks like on my machine. You will need to fill out different information, specific to your machine.
 
@@ -61,4 +62,25 @@ Below is just an example of what the relevant information looks like on my machi
 
 You can now open the app and should see the feather icon appear in your menu bar.
 
-Make sure to add your eBird API Key as a password item in your macOS Keychain (using the Keychain Access app).
+### Adding your eBird API key to the macOS keychain
+
+#### 1. Obtain your eBird API key
+Navigate to [this](https://ebird.org/api/keygen) page to create or obtain your personal eBird API key.
+
+#### 2. Store youre eBird API key
+
+For the app to work, you will need to store your eBird API Key as a password item named `ebird-api-key` in your macOS keychain. You can do this in two ways:
+
+**Option 1: Using the Keychain Access app**
+1. Open the Keychain Access app on your Mac
+2. Create a new password item named `ebird-api-key`
+3. Enter your eBird API key as the password
+
+**Option 2: Using Python**
+
+Run this command in Python, after replacing the placeholders `your_mac_username` with your macOS username, and `your_ebird_api_key` with your eBird API key.
+
+```
+import keyring
+keyring.set_password("ebird-api-key", your_mac_username, your_ebird_api_key)
+```
